@@ -847,14 +847,14 @@ int FileSystem::fdelete(const char* dir, short uid, short gid) {
 	if ((cur_dir.i_mode & (3 << 13)) != IFDIR)
 		throw("-!ERROR: 当前路径非目录文件.\n");
 
-	int file_mode;
+	int dir_mode;
 	if (uid == cur_dir.i_uid)
-		file_mode = 6;
+		dir_mode = 6;
 	else if (gid == cur_dir.i_gid)
-		file_mode = 3;
+		dir_mode = 3;
 	else
-		file_mode = 0;
-	if (((cur_dir.i_mode >> file_mode) & 2) == 0 && uid != 0)
+		dir_mode = 0;
+	if (((cur_dir.i_mode >> dir_mode) & 2) == 0 && uid != 0)
 		throw("-!ERROR: 权限不足, 缺少写权限.\n");
 
 	DirectoryEntry* dir_list = new DirectoryEntry[cur_dir.i_size / DIR_SIZE];
@@ -876,6 +876,16 @@ int FileSystem::fdelete(const char* dir, short uid, short gid) {
 		delete[] dir_list;
 		throw("-!ERROR: 该文件是目录文件, 不能用fdelete删除.\n");
 	}
+
+	int file_mode;
+	if (uid == finode.i_uid)
+		file_mode = 6;
+	else if (gid == finode.i_gid)
+		file_mode = 3;
+	else
+		file_mode = 0;
+	if (((finode.i_mode >> file_mode) & 2) == 0 && uid != 0)
+		throw("-!ERROR: 权限不足, 缺少写权限.\n");
 
 	FDelete(finode);
 	IFree(finode);

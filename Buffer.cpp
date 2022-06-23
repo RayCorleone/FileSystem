@@ -87,7 +87,7 @@ Buf* BufferManager::GetBlk(unsigned int blkno) {
 	}
 	// 3.从自由队列取一个缓存块
 	else {
-		//(1)从自由队列取出、设备队列取出
+		//(1)从自由队列取出
 		bp = bFreeList.av_back;
 		bp->av_forw->av_back = bp->av_back;
 		bp->av_back->av_forw = bp->av_forw;
