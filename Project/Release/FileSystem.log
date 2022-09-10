@@ -1,0 +1,41 @@
+﻿  Buffer.cpp
+  DiskDevice.cpp
+  File.cpp
+  FileSystem.cpp
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(83,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(155,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(465,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(623,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(645,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(686,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(733,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(749,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(790,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(812,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(844,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(864,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(895,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(911,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(1033,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(1055,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(1077,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(1124,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\FileSystem.cpp(1143,21): warning C4018: “<”: 有符号/无符号不匹配
+  Inode.cpp
+  main.cpp
+  SuperBlock.cpp
+  UserInterface.cpp
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(197,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(241,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(271,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(323,21): warning C4101: “errMsg”: 未引用的局部变量
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(469,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(865,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(894,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(926,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Ray\VisualStudio\C++\FileSystem\UserInterface.cpp(971,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 496 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  FileSystem.vcxproj -> D:\Ray\VisualStudio\C++\FileSystem\Release\FileSystem.exe
